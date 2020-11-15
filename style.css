@@ -1,0 +1,19 @@
+nav {
+    margin: auto;
+    
+}
+h1{
+    text-align: center;
+}
+nav ul li  {
+    width: 250px;
+    background-color: blueviolet;
+    font-size: 25px;
+    list-style: none;
+}
+nav ul li  {
+    margin-top: 20px;
+}
+nav ul ul li {
+    font-size: 20px;
+}
