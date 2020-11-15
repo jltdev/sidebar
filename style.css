@@ -1,19 +1,26 @@
-nav {
-    margin: auto;
-    
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-h1{
-    text-align: center;
-}
-nav ul li  {
+
+.sidebar{
+    position: fixed;
     width: 250px;
-    background-color: blueviolet;
+    height: 100%;
+    left: 0;
+    background: #1b1b1b;
+}
+.sidebar .text{
+    color: white;
     font-size: 25px;
-    list-style: none;
-}
-nav ul li  {
-    margin-top: 20px;
-}
-nav ul ul li {
-    font-size: 20px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: #1e1e1e;
+    letter-spacing: 1px;
+
 }
