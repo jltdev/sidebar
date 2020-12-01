@@ -65,7 +65,6 @@ nav ul ul li a {
     color: #e6e6e6;
     padding-left: 80px;
 }
-
 nav ul li a span{
     position: absolute;
     top: 50%;
@@ -73,9 +72,8 @@ nav ul li a span{
     transform: translateY(-50%);
     font-size: 22px;
     transition: transform 0.4s;
-
 }
-nav ul li a:hover span {
+nav:hover span {
     color: cyan;
-    transform: translateY(-50%) rotate(-180deg);
+    
 } 
