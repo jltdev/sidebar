@@ -44,14 +44,16 @@
         $('.mod-btn').click(function(){
             $('nav ul .mod-show').toggleClass("show");
             $('nav ul .first').toggleClass("rotate");
+           
         });
         $('.inv-btn').click(function(){
             $('nav ul .inv-show').toggleClass("show1");
             $('nav ul .second').toggleClass("rotate");
-        })
-        $('nav ul li') .click(function(){
+        });
+        $('nav ul li').click(function(){
             $(this).addClass("active").siblings().removeClass("active");
-        })
+        });
+       
     </script>
     
 </body>
