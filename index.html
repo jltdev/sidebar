@@ -9,6 +9,9 @@
     <title>Side Bar</title>
 </head>
 <body>
+    <div class="btn">
+        <span class="fas fa-bars"></span>
+    </div>
     <nav class="sidebar">
         <div class="text">SALES MONITORING</div>
         <ul>
@@ -32,15 +35,23 @@
                 <ul class="inv-show">
                     <li><a href="#">Laptop parts</a></li>
                     <li><a href="#">Desktop  parts</a></li>
-                    <li><a href="#">Repair</a></li>
+                    <li><a href="#">Repair Status</a></li>
                 </ul>
             </li>
             <li>
                 <a href="#">Sales</a>
             </li>
+            <li>
+                <a href="#">Settings</a>
+            </li>
         </ul>
     </nav>
+
     <script>
+        $('.btn').click(function(){
+            $(this).toggleClass("click");
+            $('.sidebar').toggleClass("show");
+        })
         $('.mod-btn').click(function(){
             $('nav ul .mod-show').toggleClass("show");
             $('nav ul .first').toggleClass("rotate");
