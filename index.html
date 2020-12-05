@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <title>Side Bar</title>
 </head>
 <body>
@@ -19,12 +21,12 @@
                 <a href="#">Dashboard</a>
             </li>
             <li>
-                <a href="#" class="mod-btn"> <i class="fas fa-tasks">Modules</i>
+                <a href="#" class="mod-btn"> Modules
                     <span class="fas fa-caret-down first"></span>
                 </a>
                 <ul class="mod-show">
-                    <li><a href="">New transaction</a></li>
-                    <li><a href="">Update Transaction</a></li>
+                    <div></div><li><a href=""><i class="fas fa-plus-circle"></i> New transaction</a></li>
+                    <li><a href=""><i class="fas fa-edit"></i> Update Transaction</a></li>
                     
                 </ul>
             </li>
@@ -46,7 +48,10 @@
             </li>
         </ul>
     </nav>
-    <div class="top-bar"></div>
+    <div class="top-bar">
+
+
+    </div>
 
     <script>
         $('.btn').click(function(){

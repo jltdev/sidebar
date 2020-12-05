@@ -6,9 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
-    background: #1b1b1b;
-}
+
 .btn {
     position: absolute;
     top: 15px;
@@ -38,7 +36,7 @@ content: '\f00d';
     width: 250px;
     height: 100%;
     left: -250px;
-    background: #585858;
+    background: #070707;
     transition: left 0.4s ease;
 }
 .sidebar.show {
@@ -101,7 +99,7 @@ nav ul ul li {
 nav ul ul li a {
     font-size: 17px;
     color: #e6e6e6;
-    padding-left: 80px;
+    padding-left: 50px;
 }
 nav ul li.active ul li a{
     color: #e6e6e6;
@@ -128,7 +126,13 @@ nav ul li a span.rotate{
 
 .top-bar {
     background: #585858;
-    margin-left: 250px;
+   
     width: 100%;
     height: 100px;
+}
+.fa-plus-circle {
+    color: aqua;
+}
+.fa-edit {
+    color: aqua;
 }
